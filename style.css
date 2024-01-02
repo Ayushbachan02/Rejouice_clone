@@ -376,3 +376,73 @@ hr {
 #loader h3{
     font-size: 1.5vw;
 }
+
+#page8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+
+#page8 h3{
+  font-weight: 100;
+  margin-bottom: 2%;
+  font-size: 1.2vw;
+}
+
+
+#page8 h1{
+  font-size: 4vw;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+footer{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+#footertopdiv{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#footertopdivright{
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+#footertopdivleft h1{
+  font-weight: 100;
+}
+
+#footertopdivleft button{
+  width: 180px;
+  height: 70px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.1vw;
+  border: 1px solid #ffffff;
+}
+
+#footerpages{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+#footersocials{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
