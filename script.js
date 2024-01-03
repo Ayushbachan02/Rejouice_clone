@@ -163,5 +163,11 @@ tl.from("#page1-content h1 span",{
     delay:-0.5
 });
 
+tl.from("#footerbottomdiv h1 span",{
+  y:-100,
+  opacity:0,
+  stagger:0.05,
+});
+
 
 
